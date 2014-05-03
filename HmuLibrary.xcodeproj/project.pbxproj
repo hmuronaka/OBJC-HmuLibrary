@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59CADCE419148F38006A0521 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CADCE319148F38006A0521 /* Foundation.framework */; };
+		59CADCE619148F38006A0521 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CADCE519148F38006A0521 /* CoreGraphics.framework */; };
+		59CADCE819148F38006A0521 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CADCE719148F38006A0521 /* UIKit.framework */; };
+		59CADCEE19148F38006A0521 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59CADCEC19148F38006A0521 /* InfoPlist.strings */; };
+		59CADCF019148F38006A0521 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CADCEF19148F38006A0521 /* main.m */; };
+		59CADCF419148F38006A0521 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CADCF319148F38006A0521 /* AppDelegate.m */; };
+		59CADCF719148F38006A0521 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59CADCF519148F38006A0521 /* Main.storyboard */; };
+		59CADCFA19148F38006A0521 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CADCF919148F38006A0521 /* ViewController.m */; };
+		59CADCFC19148F38006A0521 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59CADCFB19148F38006A0521 /* Images.xcassets */; };
+		59CADD0319148F38006A0521 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CADD0219148F38006A0521 /* XCTest.framework */; };
+		59CADD0419148F38006A0521 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CADCE319148F38006A0521 /* Foundation.framework */; };
+		59CADD0519148F38006A0521 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CADCE719148F38006A0521 /* UIKit.framework */; };
+		59CADD0D19148F38006A0521 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59CADD0B19148F38006A0521 /* InfoPlist.strings */; };
+		59CADD0F19148F38006A0521 /* HmuLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CADD0E19148F38006A0521 /* HmuLibraryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59CADD0619148F38006A0521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59CADCD819148F38006A0521 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59CADCDF19148F38006A0521;
+			remoteInfo = HmuLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59CADCE019148F38006A0521 /* HmuLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HmuLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59CADCE319148F38006A0521 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		59CADCE519148F38006A0521 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		59CADCE719148F38006A0521 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		59CADCEB19148F38006A0521 /* HmuLibrary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HmuLibrary-Info.plist"; sourceTree = "<group>"; };
+		59CADCED19148F38006A0521 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59CADCEF19148F38006A0521 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59CADCF119148F38006A0521 /* HmuLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HmuLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		59CADCF219148F38006A0521 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		59CADCF319148F38006A0521 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		59CADCF619148F38006A0521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59CADCF819148F38006A0521 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		59CADCF919148F38006A0521 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		59CADCFB19148F38006A0521 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		59CADD0119148F38006A0521 /* HmuLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HmuLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59CADD0219148F38006A0521 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		59CADD0A19148F38006A0521 /* HmuLibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HmuLibraryTests-Info.plist"; sourceTree = "<group>"; };
+		59CADD0C19148F38006A0521 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59CADD0E19148F38006A0521 /* HmuLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HmuLibraryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59CADCDD19148F38006A0521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CADCE619148F38006A0521 /* CoreGraphics.framework in Frameworks */,
+				59CADCE819148F38006A0521 /* UIKit.framework in Frameworks */,
+				59CADCE419148F38006A0521 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59CADCFE19148F38006A0521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CADD0319148F38006A0521 /* XCTest.framework in Frameworks */,
+				59CADD0519148F38006A0521 /* UIKit.framework in Frameworks */,
+				59CADD0419148F38006A0521 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59CADCD719148F38006A0521 = {
+			isa = PBXGroup;
+			children = (
+				59CADCE919148F38006A0521 /* HmuLibrary */,
+				59CADD0819148F38006A0521 /* HmuLibraryTests */,
+				59CADCE219148F38006A0521 /* Frameworks */,
+				59CADCE119148F38006A0521 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59CADCE119148F38006A0521 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59CADCE019148F38006A0521 /* HmuLibrary.app */,
+				59CADD0119148F38006A0521 /* HmuLibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59CADCE219148F38006A0521 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59CADCE319148F38006A0521 /* Foundation.framework */,
+				59CADCE519148F38006A0521 /* CoreGraphics.framework */,
+				59CADCE719148F38006A0521 /* UIKit.framework */,
+				59CADD0219148F38006A0521 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59CADCE919148F38006A0521 /* HmuLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				59CADCF219148F38006A0521 /* AppDelegate.h */,
+				59CADCF319148F38006A0521 /* AppDelegate.m */,
+				59CADCF519148F38006A0521 /* Main.storyboard */,
+				59CADCF819148F38006A0521 /* ViewController.h */,
+				59CADCF919148F38006A0521 /* ViewController.m */,
+				59CADCFB19148F38006A0521 /* Images.xcassets */,
+				59CADCEA19148F38006A0521 /* Supporting Files */,
+			);
+			path = HmuLibrary;
+			sourceTree = "<group>";
+		};
+		59CADCEA19148F38006A0521 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59CADCEB19148F38006A0521 /* HmuLibrary-Info.plist */,
+				59CADCEC19148F38006A0521 /* InfoPlist.strings */,
+				59CADCEF19148F38006A0521 /* main.m */,
+				59CADCF119148F38006A0521 /* HmuLibrary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59CADD0819148F38006A0521 /* HmuLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				59CADD0E19148F38006A0521 /* HmuLibraryTests.m */,
+				59CADD0919148F38006A0521 /* Supporting Files */,
+			);
+			path = HmuLibraryTests;
+			sourceTree = "<group>";
+		};
+		59CADD0919148F38006A0521 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59CADD0A19148F38006A0521 /* HmuLibraryTests-Info.plist */,
+				59CADD0B19148F38006A0521 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59CADCDF19148F38006A0521 /* HmuLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59CADD1219148F38006A0521 /* Build configuration list for PBXNativeTarget "HmuLibrary" */;
+			buildPhases = (
+				59CADCDC19148F38006A0521 /* Sources */,
+				59CADCDD19148F38006A0521 /* Frameworks */,
+				59CADCDE19148F38006A0521 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HmuLibrary;
+			productName = HmuLibrary;
+			productReference = 59CADCE019148F38006A0521 /* HmuLibrary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59CADD0019148F38006A0521 /* HmuLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59CADD1519148F38006A0521 /* Build configuration list for PBXNativeTarget "HmuLibraryTests" */;
+			buildPhases = (
+				59CADCFD19148F38006A0521 /* Sources */,
+				59CADCFE19148F38006A0521 /* Frameworks */,
+				59CADCFF19148F38006A0521 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59CADD0719148F38006A0521 /* PBXTargetDependency */,
+			);
+			name = HmuLibraryTests;
+			productName = HmuLibraryTests;
+			productReference = 59CADD0119148F38006A0521 /* HmuLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59CADCD819148F38006A0521 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = hmu;
+				TargetAttributes = {
+					59CADD0019148F38006A0521 = {
+						TestTargetID = 59CADCDF19148F38006A0521;
+					};
+				};
+			};
+			buildConfigurationList = 59CADCDB19148F38006A0521 /* Build configuration list for PBXProject "HmuLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59CADCD719148F38006A0521;
+			productRefGroup = 59CADCE119148F38006A0521 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59CADCDF19148F38006A0521 /* HmuLibrary */,
+				59CADD0019148F38006A0521 /* HmuLibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59CADCDE19148F38006A0521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CADCFC19148F38006A0521 /* Images.xcassets in Resources */,
+				59CADCEE19148F38006A0521 /* InfoPlist.strings in Resources */,
+				59CADCF719148F38006A0521 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59CADCFF19148F38006A0521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CADD0D19148F38006A0521 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59CADCDC19148F38006A0521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CADCFA19148F38006A0521 /* ViewController.m in Sources */,
+				59CADCF419148F38006A0521 /* AppDelegate.m in Sources */,
+				59CADCF019148F38006A0521 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59CADCFD19148F38006A0521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CADD0F19148F38006A0521 /* HmuLibraryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59CADD0719148F38006A0521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59CADCDF19148F38006A0521 /* HmuLibrary */;
+			targetProxy = 59CADD0619148F38006A0521 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59CADCEC19148F38006A0521 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59CADCED19148F38006A0521 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		59CADCF519148F38006A0521 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59CADCF619148F38006A0521 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59CADD0B19148F38006A0521 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59CADD0C19148F38006A0521 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59CADD1019148F38006A0521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		59CADD1119148F38006A0521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59CADD1319148F38006A0521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HmuLibrary/HmuLibrary-Prefix.pch";
+				INFOPLIST_FILE = "HmuLibrary/HmuLibrary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		59CADD1419148F38006A0521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HmuLibrary/HmuLibrary-Prefix.pch";
+				INFOPLIST_FILE = "HmuLibrary/HmuLibrary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		59CADD1619148F38006A0521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HmuLibrary.app/HmuLibrary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HmuLibrary/HmuLibrary-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HmuLibraryTests/HmuLibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		59CADD1719148F38006A0521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HmuLibrary.app/HmuLibrary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HmuLibrary/HmuLibrary-Prefix.pch";
+				INFOPLIST_FILE = "HmuLibraryTests/HmuLibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59CADCDB19148F38006A0521 /* Build configuration list for PBXProject "HmuLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59CADD1019148F38006A0521 /* Debug */,
+				59CADD1119148F38006A0521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59CADD1219148F38006A0521 /* Build configuration list for PBXNativeTarget "HmuLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59CADD1319148F38006A0521 /* Debug */,
+				59CADD1419148F38006A0521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		59CADD1519148F38006A0521 /* Build configuration list for PBXNativeTarget "HmuLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59CADD1619148F38006A0521 /* Debug */,
+				59CADD1719148F38006A0521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59CADCD819148F38006A0521 /* Project object */;
+}
