@@ -21,6 +21,9 @@
 		59CADD0519148F38006A0521 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CADCE719148F38006A0521 /* UIKit.framework */; };
 		59CADD0D19148F38006A0521 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59CADD0B19148F38006A0521 /* InfoPlist.strings */; };
 		59CADD0F19148F38006A0521 /* HmuLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CADD0E19148F38006A0521 /* HmuLibraryTests.m */; };
+		59CADD1B19149214006A0521 /* TextFileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CADD1A19149214006A0521 /* TextFileHelper.m */; };
+		59CADD1E19149A26006A0521 /* Test.csv in Resources */ = {isa = PBXBuildFile; fileRef = 59CADD1D19149A26006A0521 /* Test.csv */; };
+		59CADD2019149A93006A0521 /* TextFileHelperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CADD1F19149A93006A0521 /* TextFileHelperTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		59CADD0A19148F38006A0521 /* HmuLibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HmuLibraryTests-Info.plist"; sourceTree = "<group>"; };
 		59CADD0C19148F38006A0521 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		59CADD0E19148F38006A0521 /* HmuLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HmuLibraryTests.m; sourceTree = "<group>"; };
+		59CADD1919149214006A0521 /* TextFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFileHelper.h; sourceTree = "<group>"; };
+		59CADD1A19149214006A0521 /* TextFileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFileHelper.m; sourceTree = "<group>"; };
+		59CADD1D19149A26006A0521 /* Test.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Test.csv; path = HmuLibraryTests/Test.csv; sourceTree = SOURCE_ROOT; };
+		59CADD1F19149A93006A0521 /* TextFileHelperTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFileHelperTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +119,7 @@
 		59CADCE919148F38006A0521 /* HmuLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				59CADD1C1914921A006A0521 /* TextFileHelper */,
 				59CADCF219148F38006A0521 /* AppDelegate.h */,
 				59CADCF319148F38006A0521 /* AppDelegate.m */,
 				59CADCF519148F38006A0521 /* Main.storyboard */,
@@ -138,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				59CADD0E19148F38006A0521 /* HmuLibraryTests.m */,
+				59CADD1F19149A93006A0521 /* TextFileHelperTest.m */,
 				59CADD0919148F38006A0521 /* Supporting Files */,
 			);
 			path = HmuLibraryTests;
@@ -147,9 +156,19 @@
 			isa = PBXGroup;
 			children = (
 				59CADD0A19148F38006A0521 /* HmuLibraryTests-Info.plist */,
+				59CADD1D19149A26006A0521 /* Test.csv */,
 				59CADD0B19148F38006A0521 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59CADD1C1914921A006A0521 /* TextFileHelper */ = {
+			isa = PBXGroup;
+			children = (
+				59CADD1919149214006A0521 /* TextFileHelper.h */,
+				59CADD1A19149214006A0521 /* TextFileHelper.m */,
+			);
+			name = TextFileHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59CADD1E19149A26006A0521 /* Test.csv in Resources */,
 				59CADD0D19148F38006A0521 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59CADD1B19149214006A0521 /* TextFileHelper.m in Sources */,
 				59CADCFA19148F38006A0521 /* ViewController.m in Sources */,
 				59CADCF419148F38006A0521 /* AppDelegate.m in Sources */,
 				59CADCF019148F38006A0521 /* main.m in Sources */,
@@ -259,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59CADD2019149A93006A0521 /* TextFileHelperTest.m in Sources */,
 				59CADD0F19148F38006A0521 /* HmuLibraryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +478,7 @@
 				59CADD1419148F38006A0521 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59CADD1519148F38006A0521 /* Build configuration list for PBXNativeTarget "HmuLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +487,7 @@
 				59CADD1719148F38006A0521 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
